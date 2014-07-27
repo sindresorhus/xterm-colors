@@ -1,0 +1,39 @@
+{
+  "name": "xterm-colors",
+  "version": "0.0.0",
+  "description": "xterm 256 color palette",
+  "license": "MIT",
+  "repository": "sindresorhus/xterm-colors",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "xterm-colors.json"
+  ],
+  "keywords": [
+    "xterm",
+    "cli",
+    "term",
+    "terminal",
+    "256",
+    "colors",
+    "color",
+    "palette",
+    "8bit",
+    "list",
+    "array",
+    "json"
+  ],
+  "devDependencies": {
+    "ava": "0.0.3"
+  }
+}
