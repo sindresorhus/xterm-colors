@@ -1,8 +1,7 @@
-'use strict';
-var test = require('ava');
-var xtermColors = require('./');
+import test from 'ava';
+import m from '.';
 
-test(function (t) {
-	t.assert(xtermColors.length > 0);
-	t.assert(xtermColors[0] === '000000');
+test('main', t => {
+	t.true(m.length > 0);
+	t.is(m[0], '000000');
 });
