@@ -1,4 +1,4 @@
-# xterm-colors [![Build Status](https://travis-ci.com/sindresorhus/xterm-colors.svg?branch=master)](https://travis-ci.com/sindresorhus/xterm-colors)
+# xterm-colors
 
 > [xterm](https://en.wikipedia.org/wiki/Xterm) 256 color palette
 
