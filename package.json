@@ -4,19 +4,28 @@
 	"description": "xterm 256 color palette",
 	"license": "MIT",
 	"repository": "sindresorhus/xterm-colors",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
 	"engines": {
-		"node": ">=6"
+		"node": ">=18.20"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"//test": "xo && ava",
+		"test": "ava"
 	},
 	"files": [
 		"index.js",
+		"index.d.ts",
 		"xterm-colors.json"
 	],
 	"keywords": [
@@ -34,7 +43,7 @@
 		"json"
 	],
 	"devDependencies": {
-		"ava": "*",
-		"xo": "*"
+		"ava": "^6.1.2",
+		"xo": "^0.58.0"
 	}
 }

@@ -1,2 +1,3 @@
-'use strict';
-module.exports = require('./xterm-colors.json');
+import xtermColors from './xterm-colors.json' with {type: 'json'};
+
+export default xtermColors;

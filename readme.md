@@ -8,14 +8,14 @@ The color palette is just a [JSON file](xterm-colors.json) and can be used anywh
 
 ## Install
 
-```
-$ npm install xterm-colors
+```sh
+npm install xterm-colors
 ```
 
 ## Usage
 
 ```js
-const xtermColors = require('xterm-colors');
+import xtermColors from 'xterm-colors';
 
 xtermColors[7];
 //=> 'c0c0c0'
